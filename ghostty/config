@@ -1,0 +1,52 @@
+# Ghostty Minimal Dark Config
+# Place this file at: ~/.config/ghostty/config
+
+# Font Configuration
+font-family = SF Mono
+font-size = 20
+font-thicken = true
+
+# Window Settings
+window-decoration = false
+window-padding-x = 20
+window-padding-y = 20
+macos-titlebar-style = hidden
+
+# Colors - Darker Minimal
+background = 0a0a0a
+foreground = b0b0b0
+cursor-color = ffffff
+selection-background = 1a1a1a
+selection-foreground = ffffff
+
+# Cursor Settings
+cursor-style = block
+cursor-opacity = 1.0
+
+# Scrolling
+scrollback-limit = 10000
+mouse-scroll-multiplier = 3
+
+# Shell Integration
+shell-integration = detect
+shell-integration-features = cursor,sudo,title
+
+# Performance
+# sync-to-monitor = true
+
+# Keybindings
+keybind = cmd+r=reload_config
+keybind = cmd+shift+c=copy_to_clipboard
+keybind = cmd+shift+v=paste_from_clipboard
+keybind = cmd+plus=increase_font_size:1
+keybind = cmd+minus=decrease_font_size:1
+keybind = cmd+0=reset_font_size
+keybind = cmd+shift+enter=new_window
+keybind = cmd+t=new_tab
+keybind = cmd+w=close_surface
+keybind = cmd+shift+left_bracket=previous_tab
+keybind = cmd+shift+right_bracket=next_tab
+
+# Misc
+confirm-close-surface = false
+quit-after-last-window-closed = false
