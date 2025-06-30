@@ -176,12 +176,17 @@ alt-shift-l = ['join-with right', 'mode main']
 
 # Default space
 [[on-window-detected]]
-if.app-id ='com.brave.Browser'
+if.app-id ='app.zen-browser.zen'
 run = ['move-node-to-workspace 1']
 
 [[on-window-detected]]
+if.app-id = 'com.brave.Browser'
+run = ['move-node-to-workspace 3']
+
+
+[[on-window-detected]]
 if.app-id ='com.brave.Browser.app.adcclpceapdbhchilkbngkehpppaefko'
-run = ['move-node-to-workspace 1']
+run = ['move-node-to-workspace 3']
 
 [[on-window-detected]]
 if.app-id ='com.mitchellh.ghostty'
