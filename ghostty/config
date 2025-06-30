@@ -1,9 +1,12 @@
 # Ghostty Minimal Dark Config
 # Place this file at: ~/.config/ghostty/config
 
+#transparency 
+background-opacity = 0.50
+
 # Font Configuration
-font-family = SF Mono
-font-size = 20
+font-family =  AnonymicePro Nerd Font
+font-size = 18
 font-thicken = true
 
 # Window Settings
